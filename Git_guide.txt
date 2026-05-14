@@ -1,0 +1,40 @@
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/your-username/your-repo-name.git
+
+(for troublesome OS) git remote add origin https://insert_token_here@github.com/your-username/your-repo-name.git
+{- Works best if you clone the repo first if not added by the author}
+
+git remote -v (optional, version check)
+git branch -M main (change master to main)
+git push -u origin main (set upstream only once)
+git push/pull origin main
+
+Unrelated History:
+git pull origin main --allow-unrelated-histories
+
+Merge (join back to main at last commit):
+git merge origin/main (Resolve conflicts, then add and commit)
+
+Rebase (append a copy of commits to main):
+git fetch 
+git rebase origin/main (move commits on top of master/main)
+# resolve conflicts if prompted, then:
+git rebase --continue
+
+Commits (remove) and Staged files:
+git reset --soft HEAD~1 (keep staged)
+git reset --mixed HEAD~1 (unstage)
+git reset --hard HEAD~1 (wipe staged)
+git restore --staged file.name (unstage)
+
+Vim (Press Esc to leave insert mode):
+:wq (Save and finish commit message)
+:q! (Exit without saving the commit message)
+git merge --abort (stop merge)
+git fetch (fetch remote files)
+
+ 
+
+
