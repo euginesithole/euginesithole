@@ -1,6 +1,7 @@
 User setup:
 git config --global user.name "Your Name"
 git config --global user.email "Your Email"
+git config --list (to check)
 
 Most Used:
 git init
@@ -40,6 +41,8 @@ Vim (Press Esc to leave insert mode):
 git merge --abort (stop merge)
 git fetch (fetch remote files)
 
+
+Enjoy!!!
 
 
 
