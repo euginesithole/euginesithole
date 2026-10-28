@@ -9,7 +9,7 @@
 </p>
 
 ### 🚀 About Me
-
+🔦 &nbsp;Open for **research work**
 🔭 &nbsp;I'm currently working on **a website of an intelligent tutoring system for my engineering final year project.**  
 🌱 &nbsp;I'm currently learning **python, specifically on data analytics and machine learning.**  
 👯 &nbsp;I'm looking to collaborate on **any computer and electronic engineering projects, still want to gain field knowledge.**  
